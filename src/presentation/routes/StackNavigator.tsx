@@ -19,7 +19,7 @@ export const StackNavigator = () => {
   const navitator = useNavigation();
   useEffect(() => {
     navitator.setOptions({
-      headerShown: false,
+      headerShown: false, // desaparece el header por defectp del stackNavigations
     });
   }, []);
 
